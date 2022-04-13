@@ -5,11 +5,19 @@ class Calculator {
         this.clear()
     }
 
+    /**
+     * Button AC on Calculator, clear function
+     */
+
     clear() {
         this.currentOperand = ''
         this.previousOperand = ''
         this.operation = undefined
     }
+
+    /**
+     * DEL button on Calculator, delete digits one by one
+     */
 
     delete() {
         this.currentOperand = this.currentOperand.toString().slice(0, -1)
@@ -29,6 +37,10 @@ class Calculator {
         this.previousOperand = this.currentOperand
         this.currentOperand = ''
     }
+
+    /**
+     * Compute Function, the operators computation
+     */
 
     compute() {
         let computation
@@ -74,6 +86,10 @@ class Calculator {
         }
       }
 
+      /**
+       * Calculator Display Function
+       */
+
       updateDisplay() {
         this.currentOperandTextElement.innerText =
           this.getDisplayNumber(this.currentOperand)
@@ -86,6 +102,9 @@ class Calculator {
       }
     }
 
+/**
+ * DOM
+ */
 
 const numberButtons = document.querySelectorAll('[number-ref]')
 const operationButtons = document.querySelectorAll('[operation-ref]')

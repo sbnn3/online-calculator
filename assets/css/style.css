@@ -1,3 +1,5 @@
+/* Calculator Body */
+
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: Noto Serif, sans-serif;
@@ -20,6 +22,8 @@ body {
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
+/* Calculator Buttons */
+
 .calc-grid > button {
     cursor: pointer;
     font-size: x-large;
@@ -35,6 +39,8 @@ body {
 .lrg-button {
     grid-column: span 2;
 }
+
+/* Calculatr Output */
 
 .output {
     grid-column: 1 / -1;
