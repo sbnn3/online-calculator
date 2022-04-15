@@ -30,13 +30,25 @@ The calculator functions are fully working, use it for free. </p>
 # **Design**
 <ul>
 <li>Colour Scheme</li>
-<ol type="a">
+<ul>
 <li>The website colours used is Gray, Black and White.</li>
-</ol></ul>
+</ul></ul>
 <ul>
 <li>Typography</li>
-<ol type="a">
-<li>The Noto Serif font is the main font used throughout the website. The font was imported from Google fonts.</li></ol></ul>
+<ul>
+<li>The Noto Serif font is the main font used throughout the website. The font was imported from Google fonts.</li></ul></ul><hr>
+
+# **Testing**
+<ul>
+<li>The website works in different browsers: Chrome, Firefox, Safari.</li>
+<li>I confirm that the website is fully operational and looks good.</li></ul><hr>
+
+# **Languages Used**
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+<li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+</ul><hr>
 
 # **Validator Testing**
 <ul>
@@ -60,7 +72,10 @@ HTML - No errors were returned when passing through the official W3C Validator.<
 <hr>
 
 # **Accesibility**
+### **Desktop**<br>
 ![Accesibility](assets/images/Lighthouse.png "Accesibility")<hr>
+### **Mobile**<br>
+![Accesibility](assets/images/mobile-lighthouse.png "Mobile-Accesibility")<hr>
 
 # **Media**
 <ul>
