@@ -9,12 +9,16 @@ The calculator functions are fully working, use it for free. </p>
 <ul>
 <li><h3>User Stories</h3></li>
 <ul>
-<li><h3>User Goals</h3></li>
+<li><h3>User Goals & Testing</h3></li>
 <ol type="1">
 <li>As a user, i would like to use the calculator much as i can. </li>
+<ul><li>The calculator is able to calculate any type of maths operation. You can use it much as you would like to.</li></ul>
 <li>As a user, i would like to understood exactly what kind functions had the calculator.</li>
+<ul><li>The calculator have all functions that are requited.</li></ul>
 <li>As a user, i would like to delete the digits one by one.</li>
-<li>As a user, i would like to use calculator in difficult maths operations.</li>
+<ul><li>The DEL button allow you to delete the digits one by one.</li></ul>
+<li>As a user, i would like to use calculator in difficult maths operation.</li>
+<ul><li>The calculator can help you to solve the most difficult maths operation.</li></ul>
 </ol>
 </ul>
 </ul><hr>
